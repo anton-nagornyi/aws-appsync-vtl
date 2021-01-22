@@ -1,6 +1,6 @@
 {
   "name": "aws-appsync-vtl",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Push to and pull from AWS AppSync velocity templates of your resolvers",
   "main": "aav.js",
   "scripts": {
