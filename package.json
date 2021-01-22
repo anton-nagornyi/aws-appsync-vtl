@@ -1,8 +1,7 @@
 {
   "name": "aws-appsync-vtl",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Push to and pull from AWS AppSync velocity templates of your resolvers",
-  "main": "aav.js",
   "scripts": {
     "build": "npm run clean && copy-files-from-to && tsc",
     "start": "ts-node ./src/aav.ts",
@@ -45,7 +44,7 @@
     "inquirer": "^7.3.3"
   },
   "bin": {
-    "aav": "aav.js"
+    "aav": "bin/aav.js"
   },
   "copyFiles": [
     {
