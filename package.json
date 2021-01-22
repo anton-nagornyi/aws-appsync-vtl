@@ -54,6 +54,10 @@
     {
       "from": "README.md",
       "to": "dist/README.md"
+    },
+    {
+      "from": "bin/*",
+      "to": "dist/bin"
     }
   ]
 }

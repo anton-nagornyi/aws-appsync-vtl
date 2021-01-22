@@ -13,6 +13,6 @@ commander.program
   .option('-y', 'Automatic yes to prompts. Assume "yes" as answer to all prompts and run non-interactively')
   .action(() => sync.push());
 
-commander.program.command('rm', 'Remove type or resolver');
+commander.program.command('rm', 'Remove type or resolver', { executableFile: `${__dirname}/aav-rm` });
 
 commander.parse(process.argv);
