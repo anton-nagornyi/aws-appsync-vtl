@@ -1,6 +1,6 @@
 {
   "name": "aws-appsync-vtl",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Push to and pull from AWS AppSync velocity templates of your resolvers",
   "scripts": {
     "build": "npm run clean && copy-files-from-to && tsc",
